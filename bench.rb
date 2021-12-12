@@ -13,7 +13,7 @@ def my_xbonacci(signature, n)
      signature.push(next_num)
      count_from_index+=1
    end
-   return signature
+   signature
 end
 
 def their_xbonacci(s,n)
